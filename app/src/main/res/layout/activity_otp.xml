@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+>
+
+    <data>
+        <variable name="oTPActivity" type="shrinkcom.waff.com.activity.OTPActivity"/>
+    </data>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_img"
+            tools:context=".activity.OTPActivity">
+
+        <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/splash_screen"/>
+
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-32dp"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/markweblight"
+                        android:text="@string/otp"
+                        android:textColor="#000"
+                        android:textSize="22dp"/>
+
+                <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/card_view"
+                         android:layout_width="@dimen/_240sdp"
+                         android:layout_height="@dimen/_280sdp"
+                         android:layout_gravity="center"
+                         card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/otp_code"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18dp"
+                                android:textStyle="bold"/>
+
+
+
+                        <TextView
+                                android:layout_margin="@dimen/_10sdp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:id="@+id/opt_msg_tv"
+                                android:text="We have sent successfully a otp on your registred email address "
+                                android:textColor="@color/colorAccent"
+                                android:textSize="18dp"
+                                android:textStyle="bold"/>
+
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"
+                                android:gravity="center">
+
+                            <EditText
+                                    android:id="@+id/first_degit_edittx"
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:background="@drawable/round_edittext"
+                                    android:hint="0"
+                                    android:singleLine="true"
+                                    android:nextFocusRight="@+id/second_degit_edittx"
+                                    android:maxLength="1"
+                                    android:inputType="numberPassword"
+                                    android:imeOptions="actionNext"
+                                    android:padding="10dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textColorHint="@color/colorAccent"/>
+
+                            <EditText
+                                    android:id="@+id/second_degit_edittx"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:singleLine="true"
+                                    android:background="@drawable/round_edittext"
+                                    android:hint="0"
+                                    android:padding="10dp"
+                                    android:maxLength="1"
+                                    android:inputType="numberPassword"
+                                    android:imeOptions="actionNext"
+                                    android:textColor="@color/colorAccent"
+                                    android:textColorHint="@color/colorAccent"/>
+
+                            <EditText
+                                    android:id="@+id/third_degit_edittx"
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:background="@drawable/round_edittext"
+                                    android:hint="0"
+                                    android:maxLength="1"
+                                    android:singleLine="true"
+                                    android:inputType="numberPassword"
+                                    android:imeOptions="actionNext"
+                                    android:padding="10dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textColorHint="@color/colorAccent"/>
+
+                            <EditText
+                                    android:lines="1"
+                                    android:maxEms="10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/round_edittext"
+                                    android:hint="0"
+                                    android:id="@+id/fourth_degit_edittx"
+
+                                    android:singleLine="true"
+                                    android:maxLength="1"
+                                    android:inputType="numberPassword"
+                                    android:imeOptions="actionNext" android:padding="10dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textColorHint="@color/colorAccent"/>
+                        </LinearLayout>
+                        <Button
+                                android:layout_gravity="center"
+                                android:id="@+id/submit_btn"
+                                android:layout_width="140dp"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="30dp"
+                                android:background="@drawable/gradient_background"
+                                android:gravity="center"
+                                android:text="@string/submit"
+                                android:onClick="@{() -> oTPActivity.requestForVerifyOtp()}"
+                                android:fontFamily="@font/markwebbold"
+                                android:textAllCaps="false"
+                                android:textColor="#000"
+                                android:textSize="14dp"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
+

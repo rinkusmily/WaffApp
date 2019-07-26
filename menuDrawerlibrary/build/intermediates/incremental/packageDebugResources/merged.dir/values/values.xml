@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="menuDrawerStyle"/>
+    <color name="md__defaultBackground">#FF555555</color>
+    <item name="mdActiveViewPosition" type="id"/>
+    <item name="mdContent" type="id"/>
+    <item name="mdMenu" type="id"/>
+    <item name="md__content" type="id"/>
+    <item name="md__drawer" type="id"/>
+    <item name="md__menu" type="id"/>
+    <style name="Widget"/>
+    <style name="Widget.MenuDrawer">
+        <item name="mdMenuBackground">@color/md__defaultBackground</item>
+        <item name="mdContentBackground">?android:attr/windowBackground</item>
+    </style>
+    <declare-styleable name="MenuDrawer">
+
+        <!-- Drawable to use for the background of the content. -->
+        <attr format="reference" name="mdContentBackground"/>
+
+        <!-- Drawable to use for the background of the menu. -->
+        <attr format="reference" name="mdMenuBackground"/>
+
+        <!-- The size of the menu. -->
+        <attr format="dimension" name="mdMenuSize"/>
+
+        <!-- Drawable used as indicator for the active view. -->
+        <attr format="reference" name="mdActiveIndicator"/>
+
+        <!-- Defines whether the content will have a dropshadow onto the menu. Default is true. -->
+        <attr format="boolean" name="mdDropShadowEnabled"/>
+
+        <!-- The size of the drop shadow. Default is 6dp -->
+        <attr format="dimension" name="mdDropShadowSize"/>
+
+        <!-- The color of the drop shadow. Default is #FF000000. -->
+        <attr format="color" name="mdDropShadowColor"/>
+
+        <!-- Drawable used for the drop shadow. -->
+        <attr format="reference" name="mdDropShadow"/>
+
+        <!-- The touch bezel size. -->
+        <attr format="dimension" name="mdTouchBezelSize"/>
+
+        <!-- Whether the indicator should be animated between active views. -->
+        <attr format="boolean" name="mdAllowIndicatorAnimation"/>
+
+        <!-- The maximum animation duration -->
+        <attr format="integer" name="mdMaxAnimationDuration"/>
+    </declare-styleable>
+</resources>

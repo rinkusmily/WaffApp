@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="countries">
+        <item>Dog</item>
+        <item>Other animals</item>
+        <item>Ticks</item>
+        <item>Wasp/hornet nests</item>
+        <item>Active hunting area</item>
+        <item>Impassable or dangerous path</item>
+        <item>Insecurity zone</item>
+        <item>Identification of drinking water points</item>
+        <item>Other</item>
+    </string-array>
+
+    <integer-array name="images">
+        <item>@drawable/dog</item>
+        <item>@drawable/pawprint</item>
+        <item>@drawable/tick</item>
+        <item>@drawable/wasp</item>
+        <item>@drawable/crosshair</item>
+        <item>@drawable/danger</item>
+        <item>@drawable/insecure</item>
+        <item>@drawable/water_bottle</item>
+        <item>@drawable/tap</item>
+    </integer-array>
+
+    <integer-array name="colors">
+        <item>@color/colorPrimary</item>
+        <item>@color/fuchsia</item>
+        <item>@color/header_bgcolor</item>
+        <item>@color/colorAccent</item>
+        <item>@color/red</item>
+        <item>@color/bglayoutcolor</item>
+        <item>@color/blue</item>
+        <item>@color/maroon</item>
+    </integer-array>
+
+</resources>

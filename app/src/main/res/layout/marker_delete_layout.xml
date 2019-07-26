@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+                name="myDangerListActivity"
+                  type="shrinkcom.waff.com.activity.MyDangerListActivity"/>
+
+    </data>
+
+    <LinearLayout
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+
+        <TextView android:layout_width="match_parent"
+                  android:textSize="16sp"
+                  android:gravity="center"
+                  android:textColor="@color/black"
+                  android:text="@string/danger_delete_alert_dilog"
+                  android:paddingBottom="20dp"
+                  android:paddingTop="20dp"
+                  android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+                android:background="@color/gray"
+                android:orientation="horizontal"
+                android:weightSum="2.01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/cancel_btn"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/tendps"
+                    android:paddingBottom="@dimen/tendps"
+
+                    android:background="@color/gradient_end"
+                    android:layout_weight="1"
+                    android:text="@string/edit_comment"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_weight=".01"
+
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"/>
+
+            <TextView
+                    android:background="@color/gradient_center"
+                    android:padding="@dimen/tendps"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/delete"
+                    android:id="@+id/ok_btn"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:paddingBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+                android:padding="@dimen/tendps"
+                android:background="@color/mapbox_navigation_route_layer_congestion_yellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/markweblight"
+                android:text="@string/incidents_feedBack"
+                android:textColor="#000"
+                android:textSize="@dimen/twyntytwosp"/>
+
+
+        <EditText
+                android:id="@+id/comment_edit_tv"
+                android:gravity="top"
+                android:padding="@dimen/_5sdp"
+                android:hint="@string/write_comment"
+                android:layout_margin="@dimen/tendps"
+                android:background="@drawable/green_border"
+                android:minLines="4"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:maxLines="4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_gravity="center"
+                       android:id="@+id/green_thumb_btn"
+                       android:src="@drawable/green_thumb"
+                       android:layout_height="wrap_content"/>
+
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_marginStart="40dp"
+                       android:layout_gravity="center"
+                       android:rotation="180"
+                       android:id="@+id/red_thumb_btn"
+                       android:src="@drawable/red_thumb_inactive"
+                       android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <Button
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="@dimen/tendps"
+                android:paddingBottom="@dimen/tendps"
+
+                android:id="@+id/feedback_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/gradient_background"
+                android:fontFamily="@font/markwebbold"
+                android:gravity="center"
+                android:text="@string/send_feedback"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="@dimen/fourteensp" />
+
+    </LinearLayout>
+
+
+</layout>

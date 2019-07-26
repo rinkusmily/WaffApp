@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable name="selectReportActivity"
+                  type="shrinkcom.waff.com.activity.SelectReportActivity"/>
+
+    </data>
+
+
+    <RelativeLayout
+            android:background="@color/mapbox_navigation_route_layer_congestion_yellow"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TextView
+                android:padding="@dimen/_20sdp"
+                android:text="@string/Select_danger"
+                android:id="@+id/title"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:fontFamily="@font/markwebbold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:onClick="@{() -> selectReportActivity.closeActivity()}"
+                android:id="@+id/close_btn"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Close"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/white"
+                android:padding="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/cardview_dark_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        <android.support.v7.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_above="@id/close_btn"
+                android:layout_marginBottom="@dimen/tendps"
+                android:id="@+id/danger_list_view"
+                 android:layout_height="wrap_content" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</layout>

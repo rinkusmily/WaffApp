@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "734264797785",
+    "firebase_url": "https://cohesive-feat-244206.firebaseio.com",
+    "project_id": "cohesive-feat-244206",
+    "storage_bucket": "cohesive-feat-244206.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734264797785:android:f3c52bc337874e8a",
+        "android_client_info": {
+          "package_name": "shrinkcom.waff.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734264797785-7o4c1m6nnrtd9g2u0a0p4omm43fb2jfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shrinkcom.waff.com",
+            "certificate_hash": "26054e6a5d2573785ef281ab506aac8ae0635fc3"
+          }
+        },
+        {
+          "client_id": "734264797785-vmnpk9ljqmjk4iq7egl73krjhgchil0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hrinkcom.waff.com",
+            "certificate_hash": "e7f80caea89ee023c14907983b4558d4954a7abc"
+          }
+        },
+        {
+          "client_id": "734264797785-na50juim31d7ja311586h9bpcppan2oh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shrinkcom.waff.com",
+            "certificate_hash": "1804a522dfb0216a34248a81ed207f3859fe0de1"
+          }
+        },
+        {
+          "client_id": "734264797785-nvoo8lm5igaf29rnckfupu1fniad0lnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hrinkcom.waff.com",
+            "certificate_hash": "999c22f4f1e13dc05cbff5f002488af5d4c2d4cb"
+          }
+        },
+        {
+          "client_id": "734264797785-dufhtb7lkuqmr8o5b22bv6kil2ctpi9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shrinkcom.waff.com",
+            "certificate_hash": "4ad348ea932ec4186729dc4fcd9a494e80699370"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr5nF3KLXjbnmlOah4VgX_Gkg428IlghQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734264797785:android:1a91a0b8dd25d1cc",
+        "android_client_info": {
+          "package_name": "shrinkcom.waff.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734264797785-85nue7kn3g5lq31f3ctte81ct5d2f4a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shrinkcom.waff.com",
+            "certificate_hash": "e7f80caea89ee023c14907983b4558d4954a7abc"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr5nF3KLXjbnmlOah4VgX_Gkg428IlghQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

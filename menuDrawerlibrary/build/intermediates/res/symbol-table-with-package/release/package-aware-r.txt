@@ -1,0 +1,23 @@
+net.simonvt.menudrawer
+attr mdActiveIndicator
+attr mdAllowIndicatorAnimation
+attr mdContentBackground
+attr mdDropShadow
+attr mdDropShadowColor
+attr mdDropShadowEnabled
+attr mdDropShadowSize
+attr mdMaxAnimationDuration
+attr mdMenuBackground
+attr mdMenuSize
+attr mdTouchBezelSize
+attr menuDrawerStyle
+color md__defaultBackground
+id mdActiveViewPosition
+id mdContent
+id mdMenu
+id md__content
+id md__drawer
+id md__menu
+style Widget
+style Widget_MenuDrawer
+styleable MenuDrawer mdActiveIndicator mdAllowIndicatorAnimation mdContentBackground mdDropShadow mdDropShadowColor mdDropShadowEnabled mdDropShadowSize mdMaxAnimationDuration mdMenuBackground mdMenuSize mdTouchBezelSize

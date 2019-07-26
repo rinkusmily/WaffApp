@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F1C700</color>
+    <color name="colorPrimaryDark">#DE9F01</color>
+    <color name="colorAccent">#000000</color>
+    <color name="gradient_start">#F1C700</color>
+    <color name="gradient_end">#DE9F01</color>
+    <color name="gradient_center">#E9B801</color>
+
+    <color name="color_app_select_hover">#80224E79</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="gray_light">#D3D3D3</color>
+
+    <color name="header_bgcolor">#00897B</color>
+    <color name="light_bgcolor">#d3f9f5</color>
+    <color name="bglayoutcolor">#80E9B801</color>
+
+    <color name="black">#000000</color>
+
+    <color name="blue">#0000FF</color>
+    <color name="maroon">#800000</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="grayy">#b6b5b5</color>
+    <color name="lightgray">#F5F5F5</color>
+    <color name="lightgray1">#E3F2FD</color>
+
+    <color name="light_gray">#717171</color>
+    <color name="facebookcolor">#3b5998</color>
+    <color name="red">#c21328</color>
+
+
+
+</resources>

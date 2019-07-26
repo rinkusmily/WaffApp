@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Waff</string>
+    <string name="english_us">English (US)</string>
+    <string name="french">French</string>
+
+
+    <string name="change_password">Change Password</string>
+
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="update_pass">Update password</string>
+
+    <string name="where_to_go">where to go ?</string>
+
+    <string name="username">Username</string>
+    <string name="nickname">Nickname (Optional)</string>
+
+    <string name="email">Email</string>
+    <string name="phone">Mobile No.</string>
+    <string name="what_they_are_doing_outside">what they are doing outside</string>
+    <string name="update_prof">Update Profile</string>
+    <string name="send_email">Send Email</string>
+
+    <string name="register_email">Enter the email address associated with your registered account. You\'ll receive a message with instruction on recovering your username and password.</string>
+    <string name="forgot_username_password">Forget your username or password?</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="engleish">English (US)</string>
+    <string name="All">All</string>
+
+
+
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="Notification">Notification</string>
+
+    <string name="help_center">Help Center</string>
+    <string name="Navigation">Navigation</string>
+
+    <string name="privacy_setting">Privacy settings</string>
+    <string name="about">About</string>
+
+    <string name="help">Help</string>
+    <string name="signup">Sign Up</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="dont_account">Don\'t have an account ? Signup</string>
+
+    <string name="logout">Logout</string>
+    <string name="facebook_app_id">1193032260821166</string>
+
+    <string name="email_username">Email or Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_pass">Forgot Password ? </string>
+
+    <string name="mobile">Mobile No.</string>
+    <string name="agree">I Agree Terms &amp; Conditions</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+
+    <string name="forgot_password">Forgot Password</string>
+    <string name="otp_code">Enter your code</string>
+    <string name="submit">Submit</string>
+    <string name="otp">OTP</string>
+
+    <string name="add">Add</string>
+
+    <string name="not_register">Not registered</string>
+    <string name="one_new_msg">1 new message</string>
+    <string name="accessToken">pk.eyJ1IjoiMTVyb2hpdGFncmF3YWwiLCJhIjoiY2p3cTBpeGthMjNmMDN5bnNvZmo0czc3dyJ9.HYInmt4BWWtQmRrPGxbqrw</string>
+
+    <string name="no_results">No Results</string>
+    <string name="server_error_message">Server Connection failed</string>
+
+    <string name="network_error_message">No internet connection</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="danger_points">Danger Points</string>
+
+    <string name="gps_network_not_enabled">GPS Network not Enabled</string>
+    <string name="open_location_settings">Open Location Settings</string>
+
+    <string name="set_once_and">Set once and go</string>
+    <string name="auto">Auto</string>
+
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="mode">Mode</string>
+
+    <string name="setting">Settings</string>
+
+
+
+
+
+    <string name="origin">Origin</string>
+
+    <string name="destination">Destination</string>
+    <string name="incidents_feedBack">Incidents FeedBack</string>
+    <string name="write_comment">Write Comment</string>
+
+    <string name="send_comment"> Send Comment</string>
+
+    <string name="Select_danger"> Select a danger</string>
+    <string name="my_dangeres">My Dangeres</string>
+
+    <string name="edit_comment">Edit Comment</string>
+    <string name="delete">Delete</string>
+    <string name="danger_delete_alert_dilog">Are you sure you want to modify this danger?</string>
+
+
+    <string name="Send">Send</string>
+    <string name="comments">Comments</string>
+
+    <string name="dashBoard">DashBoard</string>
+
+
+
+</resources>

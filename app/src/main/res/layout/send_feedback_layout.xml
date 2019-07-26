@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="sendFeedBackActivity"
+                  type="shrinkcom.waff.com.activity.SendFeedBackActivity"/>
+
+    </data>
+
+
+    <LinearLayout
+            android:paddingBottom="@dimen/tendps"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/mapbox_navigation_route_layer_congestion_yellow">
+
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                    app:logoDescription="LOGO"><!-- logo and logo description for the Toolbar-->
+
+
+            </android.support.v7.widget.Toolbar>
+
+            <RelativeLayout
+                    android:padding="5dp"
+                    android:layout_marginRight="@dimen/tendps"
+                    android:layout_marginLeft="@dimen/tendps"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+            >
+
+
+                <ImageView
+                        android:visibility="invisible"
+                        android:background="@drawable/ic_arrow_back_black_24dp"
+                        android:id="@+id/back_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/tendps"
+                        android:src="@drawable/back"/>
+
+                <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/incidents_feedBack"
+                        android:visibility="visible"
+                        android:layout_marginTop="@dimen/tendps"
+                        android:id="@+id/crat_qty_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <ImageView
+                android:layout_margin="@dimen/tendps"
+                android:layout_gravity="center"
+                android:onClick="@{() -> sendFeedBackActivity.requestForPermission()}"
+                android:src="@drawable/image"
+                android:layout_width="wrap_content"
+                android:id="@+id/image_gallry_view"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+        <EditText
+                android:id="@+id/comment_edit_tv"
+                android:gravity="top"
+                android:padding="@dimen/_5sdp"
+                android:hint="@string/write_comment"
+                android:layout_margin="@dimen/tendps"
+                android:background="@drawable/green_border"
+                android:minLines="4"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:maxLines="4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_gravity="center"
+                       android:id="@+id/green_thumb_btn"
+                       android:src="@drawable/green_thumb"
+                       android:layout_height="wrap_content"/>
+
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_marginStart="40dp"
+                       android:layout_gravity="center"
+                       android:rotation="180"
+                       android:id="@+id/red_thumb_btn"
+                       android:src="@drawable/red_thumb_inactive"
+                       android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <Button
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="@dimen/tendps"
+                android:paddingBottom="@dimen/tendps"
+
+                android:id="@+id/feedback_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/gradient_background"
+                android:fontFamily="@font/markwebbold"
+                android:gravity="center"
+                android:text="@string/send_feedback"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+</layout>

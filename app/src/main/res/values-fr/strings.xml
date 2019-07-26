@@ -1,0 +1,148 @@
+<resources>
+
+<string name="app_name">Waff</string>
+<string name="sign_in">Connexion</string>
+<string name="send_email">Envoyer email</string>
+<string name="signup">Inscription</string>
+<string name="update_pass">Changer le mot de passe</string>
+<string name="dont_account">Vous n’êtes pas encore membre WaffApp ? Inscrivez-vous !</string>
+<string name="email_username">Email ou identifiant</string>
+<string name="password">Mot de passe</string>
+<string name="new_password">Nouveau mot de passe</string>
+<string name="repeat_password">Répéter le mot de passe</string>
+<string name="current_password">Mot de passe actuel</string>
+<string name="forgot_pass">Mot de passe oublié ? </string>
+<string name="username">Identifiant</string>
+<string name="nickname">Surnom (facultatif)</string>
+<string name="email">Email</string>
+<string name="phone">N° de téléphone</string>
+<string name="mobile">N° de téléphone</string>
+<string name="agree">J\'ai lu et j\'accepte les conditions d\'utilisation </string>
+<string name="where_to_go">Où allez-vous ?</string>
+\<string name="nav_header_title">Android Studio</string>
+<string name="nav_header_subtitle">android.studio@android.com</string>
+\<string name="action_settings">Paramètres</string>
+        <!-- <string name="account"><![CDATA[Account & login]]></string>
+        <string name="Notification">Notification</string>-->
+<string name="profile">Profil</string>
+        <!-- <string name="SocialNetwork">Réseaux sociaux</string>
+        <string name="privacy_setting">Politique de confidentialité</string>
+        <string name="spread">Partagez</string>
+        <string name="about">A propos</string>
+        <string name="Watch">Visionnez le tour guidé</string>
+        <string name="how_toedit">Comment modifier la carte ?</string>
+        <string name="logout">Déconnexion</string>-->
+<string name="home">Accueil</string>
+        <!-- <string name="setting">Options de compte</string>-->
+<string name="change_password">Modifier le mot de passe</string>
+<string name="edit_profile">Modifier le profil</string>
+<string name="forgot_password">Mot de passe oublié</string>
+<string name="forgot_username_password">Mot de passe ou identifiant oublié ?</string>
+<string name="register_email">
+Entrez l\'adresse email associée à votre compte. Vous recevrez un message avec les instructions pour récupérer votre nom d\'utilisateur ou votre mot de passe.</string>
+<string name="otp_code">Entrer le code</string>
+<string name="submit">Envoyer</string>
+<string name="update_prof">Modifier le profil</string>
+<string name="otp">OTP</string>
+<string name="add">Ajouter</string>
+
+
+<string name="set_once_and">Set once and go</string>
+        <string name="auto">Auto</string>
+        <string name="privacy_setting">Politique de confidentialité</string>
+        <string name="about">A propos</string>
+        <string name="help">Aide</string>
+
+
+
+
+<string name="Notification">Notification</string>
+        <string name="All">Tout</string>
+        <string name="mode">Mode</string>
+
+<string name="help_center">Aide</string>
+        <string name="engleish">Anglais (US)</string>
+
+
+
+
+
+
+
+
+        <!--Mapbox access token-->
+
+<string name="accessToken">pk.eyJ1IjoiMTVyb2hpdGFncmF3YWwiLCJhIjoiY2p3cTBpeGthMjNmMDN5bnNvZmo0czc3dyJ9.HYInmt4BWWtQmRrPGxbqrw</string>
+
+
+<string name="no_results">No Results</string>
+
+
+<string name="server_error_message">Server Connection failed</string>
+<string name="network_error_message">No internet connection</string>
+
+<string name="reset_password">Reinitaliser mot de passe</string>
+
+<string name="facebook_app_id">1193032260821166</string>
+
+<string name="danger_points">Danger Points</string>
+
+<string name="gps_network_not_enabled">GPS Network not Enabled</string>
+<string name="open_location_settings">Open Location Settings</string>
+
+
+        <!--
+        <string name="google_maps_kay">AIzaSyAPd438fpUr9VxypwUfPhk4hgL8uR7yB08</string>
+        -->
+
+
+
+
+<string name="yes">Oui</string>
+<string name="cancel">Annuler</string>
+
+
+<string name="send_feedback">Envoyer des commentaires</string>
+
+
+
+        <string name="setting">Réglages</string>
+
+
+
+
+
+        <string name="origin">Origine</string>
+
+        <string name="destination">Destination</string>
+        <string name="incidents_feedBack">Retour sur incident</string>
+        <string name="write_comment">Écrire un commentaire</string>
+
+        <string name="send_comment"> Envoyer un commentaire</string>
+
+        <string name="Select_danger"> Sélectionnez un danger</string>
+        <string name="my_dangeres">Mon dangereux</string>
+
+        <string name="edit_comment">Modifier le commentaire</string>
+        <string name="delete">Effacer</string>
+        <string name="danger_delete_alert_dilog">Êtes-vous sûr de vouloir modifier ce danger?</string>
+
+
+        <string name="Send">Envoyer</string>
+        <string name="comments">commentaires</string>
+
+        <string name="dashBoard">Tableau de bord</string>
+
+        <string name="not_register">Non enregistré</string>
+        <string name="one_new_msg">1 nouveau message</string>
+
+        <string name="what_they_are_doing_outside">ce qu\'ils font dehors</string>
+        <string name="choose_language">Choisissez la langue</string>
+        <string name="Navigation">La navigation</string>
+        <string name="logout">Connectez - Out</string>
+        <string name="english_us">English (US)</string>
+        <string name="french">French</string>
+
+
+</resources>
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+        <variable name="loginActivity"
+                  type="shrinkcom.waff.com.activity.LoginActivity" />
+    </data>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/logo_image"
+                    tools:context=".activity.LoginActivity">
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="@dimen/_170sdp"
+                        android:layout_height="@dimen/_150sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/splash_screen" />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-32dp"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/markweblight"
+                        android:text="@string/sign_in"
+                        android:textColor="#000"
+                        android:textSize="22dp" />
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                                    android:id="@+id/card_view"
+                                                    android:layout_width="@dimen/_240sdp"
+                                                    android:layout_height="@dimen/_280sdp"
+                                                    android:layout_gravity="center"
+                                                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                                android:id="@+id/input_layout_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <EditText
+                                    android:id="@+id/input_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/email_username"
+                                    android:inputType="text"
+                                    android:fontFamily="@font/markweblight"
+                                    android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                                android:id="@+id/input_layout_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <EditText
+                                    android:id="@+id/input_password"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/password"
+                                    android:inputType="textPassword"
+                                    android:fontFamily="@font/markweblight"
+                                    android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <TextView
+                                android:id="@+id/forgot_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="5dp"
+                                android:gravity="right"
+                                android:fontFamily="@font/markweblight"
+                                android:text="@string/forgot_pass"
+                                android:textColor="#A0000000"
+                                android:textSize="12dp" />
+
+                        <Button
+                                android:id="@+id/btn_login"
+                                android:layout_width="140dp"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="30dp"
+                                android:background="@drawable/gradient_background"
+                                android:gravity="center"
+                                android:text="@string/sign_in"
+                                android:fontFamily="@font/markwebbold"
+                                android:textAllCaps="false"
+                                android:textColor="#000"
+                                android:textSize="14dp" />
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                            <ImageView
+                                    android:onClick="@{() -> loginActivity.faceBooLoginRequest()}"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="20dp"
+                                    android:src="@drawable/yellow_fb"
+                                    android:tint="#7D99D2" />
+
+
+
+                            <ImageView
+                                    android:onClick="@{() -> loginActivity.googleLoginRequest()}"
+
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="20dp"
+                                    android:src="@drawable/googleplus" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                        android:id="@+id/tv_sign_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="@dimen/_30sdp"
+                        android:gravity="center"
+                        android:fontFamily="@font/markweblight"
+                        android:text="@string/dont_account"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</layout>
+
